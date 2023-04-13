@@ -1,0 +1,6 @@
+services:
+  api-flask:
+    build: .
+    ports:
+      - 5000:5000
+    command: gunicorn --log-level debug "src.app:create_app()" --bind 0.0.0.0:5000 -w 1
