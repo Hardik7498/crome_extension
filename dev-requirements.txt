@@ -1,0 +1,12 @@
+alembic
+beautifulsoup4
+Flask
+Flask-API
+Flask-Log-Request-ID
+Flask-SQLAlchemy
+psycopg2-binary
+PyJWT
+SQLAlchemy
+gunicorn
+python-dotenv
+requests
